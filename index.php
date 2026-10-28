@@ -12,7 +12,7 @@ Date: 10/27/2026
     <p>Name: Kay Nae Oo</p>
     <p>Date: 10/27/2026</p>
 
-    <!---->
+    <!--This will create the form and "POST" is able to operate on it-->
     <form action="confirm.php" method="POST">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
