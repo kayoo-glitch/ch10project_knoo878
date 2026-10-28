@@ -9,7 +9,7 @@
     <p>Date: 10/27/2026</p>
 
     <?php
-    //This will create the form and "POST" is able to operate on it
+    //"POST" is able to operate on the form
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //This uses the "$__POST" array & trim function, to remove unnecessary whitespace
         $name = trim($_POST['name']);
